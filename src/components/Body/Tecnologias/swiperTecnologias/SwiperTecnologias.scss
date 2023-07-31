@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+
+@media (max-width: 1440px) {
+  .swiper-conteiner {
+    display: flex;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    & button {
+      margin-left: 180%;
+      width: 80px;
+      height: 80px;
+      font-size: 30px;
+      color: white;
+      background-color: none;
+      border: 1px solid white;
+      border-radius: 3rem;
+      margin-bottom: 50%;
+      text-align: center;
+      font-family: Bellefair;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 2px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
+
+// -----------------------------------------------------------------
+@media (max-width: 768px) {
+  .swiperMT-conteiner {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonMT-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+
+    & button {
+      margin-left: 16px;
+      width: 80px;
+      height: 80px;
+      font-size: 30px;
+      color: white;
+      background-color: none;
+      border: 1px solid white;
+      border-radius: 3rem;
+
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .swiperMT-conteiner {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonMT-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+
+    & button {
+      margin-left: 16px;
+      width: 40px;
+      height: 40px;
+      font-size: 30px;
+      color: white;
+      background-color: none;
+      border: 1px solid white;
+      border-radius: 3rem;
+      text-align: center;
+      font-family: Bellefair;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 1px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+}
