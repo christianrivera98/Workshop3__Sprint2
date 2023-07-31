@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Homepage from './pages/Homepage'
 import Planets from './pages/planets'
-import Mission from './pages/mission'
+import Mission from './pages/mission/Mission'
 import Characters from './pages/Characters'
 
 function App() {
