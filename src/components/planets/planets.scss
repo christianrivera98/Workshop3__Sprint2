@@ -1,0 +1,38 @@
+$font-barlow: "Barlow Condensed", sans-serif;
+$font-bellefair: "Bellefair", serif;
+$font-b: "Barlow", sans-serif;
+
+.planets {
+  font-family: $font-barlow;
+}
+.linkPlanet {
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: 2.7px;
+  &__mars {
+    color: #d0d6f9;
+  }
+}
+.titlePLanet {
+  font-size: 100px;
+  line-height: 114.6px;
+  font-family: $font-bellefair;
+}
+.infoPLanet {
+  font-family: $font-b;
+  font-size: 18px;
+  line-height: 32px;
+  color: #d0d6f9;
+}
+.distance {
+  font-family: $font-barlow;
+  font-size: 14px;
+  line-height: 16.8px;
+  letter-spacing: 2.36px;
+}
+
+.distNumber {
+  font-family: $font-bellefair;
+  font-size: 28px;
+  line-height: 32.09px;
+}
