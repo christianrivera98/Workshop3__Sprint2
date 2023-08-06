@@ -3,8 +3,13 @@ $font-barlow: "Barlow Condensed", sans-serif;
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
+.navBarColor{
+  background-color: rgba(255,255,255, 0.04);
+  backdrop-filter: blur(4077px);
+}
+
 .header,
 .logo,
 .rectangle,

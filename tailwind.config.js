@@ -1,3 +1,5 @@
+import plugin from 'tailwindcss';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -23,8 +25,13 @@ export default {
       },
       colors: {
         "azul-grisáceo": "#d0d6f9",
+        "black-trans":"#ffffff06"
       },
     },
-    plugins: [],
+    plugins: [
+      plugin(function({ addVariant }) {
+        addVariant('current', '&.active');
+    })
+    ],
   },
 };

@@ -1,40 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@100;400&family=Bellefair&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
   --font-barlow: "Barlow Condensed", sans-serif;
+  --font-bellefair: "Bellefair", sans-serif;
 }
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
+*{
+  font-family: var(--font-barlow);
+  background: url(/destination/background-destination-desktop.jpg)
+      no-repeat center center fixed;
+    background-size: cover;
+}
 
-#root {
+/* #root {
   display: flex;
   width: 1440px;
-}
+} */
+
+
 
 @media (max-width: 1440px) {
-   {
-    background: url(./assets/destination/background-destination-desktop.jpg)
+  * {
+    background: url(/destination/background-destination-desktop.jpg)
       no-repeat center center fixed;
     background-size: cover;
   }
 }
 
 @media (max-width: 768px) {
-   {
-    background: url(./assets/destination/background-destination-tablet.jpg)
+  * {
+    background: url(/destination/background-destination-tablet.jpg)
       no-repeat center center fixed;
     background-size: cover;
   }
 }
 
 @media (max-width: 375px) {
-   {
-    background: url(./assets/destination/background-destination-mobile.jpg)
+  * {
+    background: url(/destination/background-destination-mobile.jpg)
       no-repeat center center fixed;
     background-size: cover;
   }
